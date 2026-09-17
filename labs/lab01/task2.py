@@ -59,7 +59,7 @@ def check_access() -> None:
     print(f"Студент: {STUDENT_NAME} | Варіант: {VARIANT_NUMBER}\n")
     print("=== СПИСОК РЕСУРСІВ СИСТЕМИ ===")
     for res_name, lvl_num in resources:
-        lvl_text = security_levels[lvl_num - 1]
+        lvl_text = security_levels[lvl_num-1]
         print(f" - {res_name}: {lvl_text}")
 
     print("\n=== РЕЗУЛЬТАТИ ПЕРЕВІРКИ ДОСТУПУ ===")
